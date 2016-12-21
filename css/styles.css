@@ -1,0 +1,107 @@
+.mainDiv{
+		width: 30vw;
+		height: 100%;
+    background: #fff;
+    position: absolute;
+    left: 65%;
+    border:1px solid #999;
+}
+.msgContainer{
+	    margin-top: 5px;
+}
+.msgIcon{
+	width: 100%;
+	display: flex;
+}
+
+.circle {
+	border-radius: 50%;
+    width: 4.5em;
+    height: 4.5em;
+    background: #999;
+    font-size: 12px;
+    line-height: 4.5em;
+    text-align: center;
+    padding: .5em;
+}
+ul{
+	list-style-type: none;
+}
+.listView{
+	margin-top: 6px;
+    margin-left: -35px;
+}
+
+.toMessage {
+	position: relative;
+	background: #FAFAFA;
+	border: 0px solid;
+	width: 75%;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 5px;
+	border: 1px solid #999;
+}
+.toMessage:after, .toMessage:before {
+	bottom: 100%;
+	left: 9%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.toMessage:after {
+	border-color: rgba(250, 250, 250, 0);
+	border-bottom-color: #FAFAFA;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.toMessage:before {
+	border-color: rgba(153, 153, 153, 0);
+	border-bottom-color: #999;
+	border-width: 16px;
+	margin-left: -16px;
+}
+
+.fromMessage {
+	position: relative;
+	background: #FAFAFA;
+	border: 0px solid;
+	width: 75%;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 80px;
+	border: 1px solid #999;
+	text-align: right;
+}
+.fromMessage:after, .fromMessage:before {
+	bottom: 100%;
+	left: 9%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.fromMessage:after {
+	border-color: rgba(250, 250, 250, 0);
+	border-bottom-color: #FAFAFA;
+	border-width: 15px;
+	margin-left: 223px;
+}
+.fromMessage:before {
+	border-color: rgba(153, 153, 153, 0);
+	border-bottom-color: #999;
+	border-width: 16px;
+	margin-left: 222px;
+}
+.listView.meListView{
+	margin-left: 235px;
+	text-align: right;
+	margin-right: 4px;
+}
