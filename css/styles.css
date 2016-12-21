@@ -18,11 +18,12 @@
 	border-radius: 50%;
     width: 4.5em;
     height: 4.5em;
-    background: #999;
+    background: rgba(153,153,153,0.44);
     font-size: 12px;
     line-height: 4.5em;
     text-align: center;
     padding: .5em;
+		color: #777;
 }
 ul{
 	list-style-type: none;
